@@ -38,6 +38,12 @@
 31	push origin develop
 32	checkout
 33	merge
+35	add + commit -m "Paso 35"
+36	checkout develop
+37	merge
+38	checkout
+39	merge
+
 
 
 
