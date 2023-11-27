@@ -33,6 +33,11 @@
 27	merge				Hay conflictos en bitacora.txt
 	add
 	commit -m "Merge branch feature/Ticket221 into develop"
+29	add + commit -m"Paso29"
+30	tag
+31	push origin develop
+32	checkout
+33	merge
 
 
 
