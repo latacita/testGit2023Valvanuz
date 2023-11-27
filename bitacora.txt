@@ -13,14 +13,20 @@
 6	commit -m "Paso 06"
 7	branch develop
 8	branch feature/Ticket220
+10	commit -m "Paso 10"
+11	checkout develop
+12	branch feature/Ticket221
+	checkout
 14 	stash 
 	checkout
+16	commit -m "Paso 16"
+17	checkout
 18	stash apply
 	editar pasos 16, 17
 19	commit -m "Paso 19"
 20	checkout 
 21	branch feature/Ticket222
-22	checkout 			La fusión del ticket 220 se haría 					por fast-forward, ya que solo 						supondría un cambio en el puntero de 					versiones
+22	checkout 			La fusión del ticket 220 se haría 					por fast-forward, ya que solo 						supondría un cambio en el puntero 					de versiones
 
 
 
