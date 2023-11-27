@@ -27,6 +27,12 @@
 20	checkout 
 21	branch feature/Ticket222
 22	checkout 			La fusión del ticket 220 se haría 					por fast-forward, ya que solo 						supondría un cambio en el puntero 					de versiones
+24	commit -m "Paso 24"
+25	checkout
+26	merge
+27	merge				Hay conflictos en bitacora.txt
+	add
+	commit -m "Merge branch feature/Ticket221 into develop"
 
 
 
