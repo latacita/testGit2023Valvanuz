@@ -10,3 +10,9 @@
 2	editar
 3	commit
 4	push
+10	commit -m "Paso 10"
+11	checkout develop
+12	branch feature/Ticket221
+	checkout
+16	commit -m "Paso 16"
+17	checkout
