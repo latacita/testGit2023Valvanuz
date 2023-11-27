@@ -8,5 +8,8 @@
 ====== ============================ ================================
 1	clone
 2	editar
-3	commit
+3	commit -m"Paso 03"
 4	push
+6	commit -m "Paso 06"
+7	branch develop
+8	branch feature/Ticket220
